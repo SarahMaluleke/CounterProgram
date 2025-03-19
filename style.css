@@ -1,6 +1,13 @@
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .counterProgram{
 background-color: rgb(60, 60, 60);
-display: inline-block;
 text-align: center;
 width: 50%;
 }
@@ -14,7 +21,7 @@ width: 50%;
   display: block;
   font-size: 10em;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(24, 113, 255);
+  color: white;
 }
 
 .buttons{
