@@ -9,7 +9,7 @@ increaseBtn.onclick = function(){
   theCount.textContent = count;
 }
 
-decreaseBtn.click = function(){
+decreaseBtn.onclick = function(){
   count--;
   theCount.textContent = count;
 }
