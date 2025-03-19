@@ -5,12 +5,12 @@ const theCount = document.getElementById("theCount");
 let count=0;
 
 increase.onclick = function(){
-  count++;
+  count+2;
   theCount.textContent = count;
 }
 
 decrease.onclick = function(){
-  count--;
+  count-2;
   theCount.textContent = count;
 }
 
